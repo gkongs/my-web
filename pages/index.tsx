@@ -1,16 +1,22 @@
 import styled from 'styled-components';
-import Layout from '../components/layout';
+import { AnimWrapper } from '../styles/animations';
+import { StyledTag } from '../styles/utils';
 
-function Home() {
+export default function Home() {
   return (
-    <div>
-      <Layout />
-    </div>
+    <Container>
+      <StyledTag type="h1">안녕하세요!</StyledTag>
+      <StyledTag type="h1">프론트 엔드 개발자 정찬영입니다 🙂</StyledTag>
+    </Container>
   );
 }
 
-export default Home;
-
-const Btn = styled.button`
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  height: 100vh;
   background-color: ${({ theme }) => theme.primary.main};
 `;

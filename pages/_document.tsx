@@ -4,7 +4,7 @@ import { ServerStyleSheet } from 'styled-components';
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="ko">
+      <>
         <Head>
           <title>my-web</title>
         </Head>
@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </Html>
+      </>
     );
   }
 
