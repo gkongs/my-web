@@ -9,5 +9,7 @@ declare module 'styled-components' {
     secondary: {
       main: string;
     };
+    black: string;
+    white: string;
   }
 }

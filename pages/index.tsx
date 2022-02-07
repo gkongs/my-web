@@ -1,12 +1,13 @@
 import styled from 'styled-components';
+import Layout from '../components/layout';
 
-const Home = () => {
+function Home() {
   return (
     <div>
-      <Btn>ddd</Btn>
+      <Layout />
     </div>
   );
-};
+}
 
 export default Home;
 
