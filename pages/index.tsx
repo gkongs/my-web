@@ -1,7 +1,15 @@
-import type { NextPage } from 'next';
+import styled from 'styled-components';
 
-const Home: NextPage = () => {
-  return <div>초기세팅</div>;
+const Home = () => {
+  return (
+    <div>
+      <Btn>ddd</Btn>
+    </div>
+  );
 };
 
 export default Home;
+
+const Btn = styled.button`
+  background-color: ${({ theme }) => theme.primary.main};
+`;
