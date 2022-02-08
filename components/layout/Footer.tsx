@@ -1,11 +1,10 @@
 import styled from 'styled-components';
-import { StyledTag } from '../../styles/utils';
 
 export default function Footer() {
   return (
     <Container>
-      <StyledTag type="h5"> Phone: 010 - 3498 - 2902</StyledTag>
-      <StyledTag type="h5"> Email: poiuytasr@gmail.com</StyledTag>
+      <h5> Phone: 010 - 3498 - 2902</h5>
+      <h5> Email: poiuytasr@gmail.com</h5>
     </Container>
   );
 }

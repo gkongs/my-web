@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StyledTag } from '../../styles/utils';
 
 export default function Header() {
   return (
     <>
       <Container>
-        <StyledTag type="h4">Chan Young</StyledTag>
-        <StyledTag type="h4">Portfolio</StyledTag>
+        <h4>Chan Young</h4>
+        <h4>Portfolio</h4>
       </Container>
     </>
   );
